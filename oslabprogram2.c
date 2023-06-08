@@ -16,7 +16,7 @@ int main(){
     }else{
         printf("parent process:hello.I'm the parent!\n");
         printf("parent process:My PID is %d\n",getpid());
-        printf("parent process:My child's PID is %d\n",getpid());
+        printf("parent process:My child's PID is %d\n",pid);
         int status;
         waitpid(pid,&status,0);
         if(WIFEXITED(status)){
