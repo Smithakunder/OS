@@ -31,7 +31,7 @@ tat[i]=finish[i]-arr[i];
 printf("\nPName Arrtime Burtime Start TAT Finish");
 for(i=0;i<n;i++)
 {
-printf("\n%s\t%6d\t\t%6d\t%6d\t%6d\t%6d",pn[i],arr[i],bur[i],star[i],tat[i],finish[i]);
+printf("\n%d\t%6d\t\t%6d\t%6d\t%6d\t%6d",pn[i],arr[i],bur[i],star[i],tat[i],finish[i]);
 totwt+=wt[i];
 tottat+=tat[i];
 }
