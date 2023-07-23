@@ -153,7 +153,7 @@ int main(){
             tat[i]=finish[i]-arr[i];
         }
     }
-    printf("\nP Name\tArr time\tBurs time\tStart\tTAT\tFinish\n");
+    printf("\nP Name\tArr time\tBurs time\tStart\t\tTAT\t\tFinish\n");
     for(i=0;i<n;i++) {
         printf("P%d\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n",i,arr[i],bur[i],star[i],tat[i],finish[i]);
         totwt+=wt[i];
