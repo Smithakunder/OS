@@ -13,7 +13,7 @@ int main()
     printf("sequence of request access:\n");
         for(i=0;i<n;i++)
         {
-            printf("%d",RQ[i]);
+            printf("%d\t",RQ[i]);
             TotalHeadMoment=TotalHeadMoment+abs(RQ[i]-initial);
             initial=RQ[i];
         }
@@ -36,6 +36,6 @@ int main()
 // enter the initial position
 // 50
 // sequence of request access:
-// 82170431402416190
+// 82      170     43      140     24      16      190
 //  total head movement is 642
 
